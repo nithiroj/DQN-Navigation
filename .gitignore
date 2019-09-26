@@ -6,6 +6,8 @@
 __pycache__/
 .ipynb_checkpoints/
 
+Banana.app
+
 # Setuptools distribution and build folders.
 /dist/
 /build

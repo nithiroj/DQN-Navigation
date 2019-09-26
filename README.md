@@ -18,23 +18,23 @@ The task is episodic. The goal is to train the agent to get an average score of 
 1. Create (and activate) a new environment with Python 3.6.
     - __Linux__ or __Mac__: 
         ```bash
-        conda create --name drlnd python=3.6
+        conda create --name env python=3.6
         source activate drlnd
         ```
     - __Windows__: 
         ```bash
-        conda create --name drlnd python=3.6 
+        conda create --name env python=3.6 
         activate drlnd
         ```
 
 2. Clone this repository and navigate to the `python/` folder.  Then, install several dependencies.
     ```bash
-    git clone https://github.com/nithiroj/drlnd-navigation.git
-    cd drlnd-navigation/python
+    git clone https://github.com/nithiroj/DQN-Navigation.git
+    cd DQN-Navigation/python
     pip install .
     ```
 
-3. Download the environment that matches your operating system, place it in `drlnd-navigation/` folder, and unzip it.
+3. Download the environment that matches your operating system, place it in `DQN-Navigation/` folder, and unzip it.
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip) (Banana.app already in this repository)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
