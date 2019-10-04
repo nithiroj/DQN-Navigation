@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class BasicDQN(nn.Module):
-    """Actor (Policy) Model."""
+    """Local (Target) Model."""
 
     def __init__(self, state_size, action_size, seed):
         """Initialize parameters and build model.
@@ -29,7 +29,7 @@ class BasicDQN(nn.Module):
         return x
 
 class DuelingDQN(nn.Module):
-    """Actor (Policy) Model."""
+    """Local (Target) Model."""
 
     def __init__(self, state_size, action_size, seed):
         """Initialize parameters and build model.

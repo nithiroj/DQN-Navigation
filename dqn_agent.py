@@ -1,3 +1,6 @@
+"""
+Most part of these codes are from Udacity's Deep Reinforcement Learning NanoDegree
+"""
 import numpy as np
 import random
 from collections import namedtuple, deque
