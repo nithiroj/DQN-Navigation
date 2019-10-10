@@ -70,4 +70,4 @@ To watch how the agent performs, define the number of playing episodes `--play_e
 python navigation.py --double --play_eps 2
 ```
 ## More informations
-You can find more detais in implementation-algorithms (DQN and extensions), model architectures,and choosen hyperparameters-and the achieved rewards in [Report.md](./Report.md).
+You can find more detais in implementation-algorithms (DQN and extensions), model architectures,and choosen hyperparameters-and the achieved rewards in [Report.ipynb](./Report.ipynb).
